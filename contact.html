@@ -13,7 +13,7 @@
     
     <div class="pages">
       <header>
-        <img id="logo2" src="img/logo2.jpg" alt="Georgia Universal Lungs"/>
+        <img id="logo2" src="img/logo2.png" alt="Georgia Universal Lungs"/>
       </header>
 
       <div class="navbar navbar-inverse">
@@ -26,7 +26,7 @@
               <span class="icon-bar"></span>
             </a>
        
-            <a class="brand" href="#">Dr. Akinloye J. Makanjuola</a>
+            <a class="brand" href="about.html">Dr. Akinloye J. Makanjuola</a>
    
             <div class="nav-collapse collapse">
               <ul class="nav">
@@ -48,53 +48,64 @@
       </div> <!-- end of navbar -->
 
     <div class="container-fluid">
-		<h1>Contact Us</h1>
-		<address>
-			<strong>Office:</strong><br/>
-			550 Peachtree Street,NE, Suite 1285,<br/>
-			Atlanta, GA 30308<br/>
-			<strong>Phone:</strong> <a href="tel:+14048563216">(404) 856-3216</a><br/>
-			<strong>Fax:</strong> (404) 856-3217</br>
-		</address>
-		</p>
+      <div class="contact">
 
-		<form class="form-vertical" action="http://www.gaulungs.com/contact-us/" method="post" id="et_contact_form">
+      <div class="row-fluid">
+    		<span id="address" class="span5" >
+          <h1>Contact Us</h1>
+    			<strong>Office:</strong><br/>
+    			550 Peachtree Street, NE, Suite 1285<br/>
+    			Atlanta, GA 30308<br/>
+    			<strong>Phone:</strong> <a id="tel" href="wtai://wp/mc:+14048563216">(404) 856-3216</a><br/>
+    			<strong>Fax:</strong> (404) 856-3217</br>
+    		</span> <!--end of span4 -->
+    		
+        <div id="map" class="span7">
+          <a href="https://maps.google.com/maps?q=550+Peachtree+Street,+NE,+Suite+1285,+Atlanta,+GA+30308&am;hl=en&am;hnear=550+Peachtree+St+NE+%231285,+Atlanta,+Fulton,+Georgia+30308&am;gl=us&am;t=m&am;z=16" target="_blank"><img src="img/Map.png" alt="550 Peachtree Street, Atlanta, GA 30308"></a>
+        </div> <!-- end of span 6-->
+      </div><!-- end row-fluid-->
+     </div> <!-- end of "contact"-->
 
-			<p>Contact us via email by filling out the form below. 
-				Please complete all sections for the quickest response.</p>
-		<div class="control-group">
-		    <div class="controls">
-		      <input type="text" class="input-xxlarge" name="et_contact_name" placeholder= "Name" id="et_contact_name">
-		    </div>
-		 </div> <!--end of control-group-->
+      <div class="row-fluid">
+    			<p id="input" class="span11">Contact us via email by filling out the form below. 
+    				Please complete all sections for the quickest response.</p>
+        </div> <!--end of input-->
 
-		  <div class="control-group">
-		    <div class="controls">
-          <input type="email" class="input-xxlarge" name="et_contact_email" id="et_contact_email" placeholder= "Email Address">
-		    </div>
-		  </div> <!--end of control-group-->
+      <form class="form-vertical" action="http://www.gaulungs.com/contact-us/" method="post" id="et_contact_form">
+    		<div class="control-group">
+    		    <div class="controls">
+    		      <input type="text" name="et_contact_name" placeholder= "Name" id="et_contact_name">
+    		    </div>
+    		 </div> <!--end of control-group-->
 
-		  <div class="control-group">
-		    <div class="controls">
-		      <input type="text" class="input-xxlarge" name="et_contact_subject" id="et_contact_subject" placeholder="Subject">
-		    </div>
-		  </div> <!--end of control-group-->
+  		  <div class="control-group">
+  		    <div class="controls">
+            <input type="email" name="et_contact_email" id="et_contact_email" placeholder= "Email Address">
+  		    </div>
+  		  </div> <!--end of control-group-->
 
-		  <div class="control-group">
-		    <div class="controls">
-				<textarea name="et_contact_message" id="et_contact_message" class="input-xxlarge" rows="5" placeholder="Message"></textarea>
-			</div>
-		</div> <!--end of control-group-->
+  		  <div class="control-group">
+  		    <div class="controls">
+  		      <input type="text" name="et_contact_subject" id="et_contact_subject" placeholder="Subject">
+  		    </div>
+  		  </div> <!--end of control-group-->
 
-		<div class="control-group">
-		    <div class="finalize">
-		      <button type="submit" class="btn">Submit</button>
-		      <button type="reset" class="btn">Reset</button>
-		    </div>
-		  </div> <!--end of control-group-->
-		</form><!-- end of form-horizontal-->
+  		  <div class="control-group">
+  		    <div class="controls">
+  				<textarea name="et_contact_message" id="et_contact_message" rows="5" placeholder="Message"></textarea>
+  			</div>
+  		</div> <!--end of control-group-->
+
+  		<div class="control-group">
+  		    <div class="finalize">
+  		      <button type="submit" class="btn">Submit</button>
+  		      <button type="reset" class="btn">Reset</button>
+  		    </div>
+        </div><!--end of control-group-->
+  		</form><!-- end of form-horizontal-->
+    </div><!-- end of row -->
 	</div> <!-- end of container fluid-->
-</div> <!-- end of pages-->
+</div> <!-- end of pages-->  
 
       <footer>
       <p>&copy; Kayzee Ltd. 2013</p>
